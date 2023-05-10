@@ -1,0 +1,28 @@
+/**
+ * @see https://bit.dev/reference/typescript/typescript-config
+ */
+
+{
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "target": "es5",
+
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true
+  },
+  "exclude": ["dist"],
+  "include": ["**/*", "**/*.json"]
+}
