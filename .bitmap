@@ -10,22 +10,10 @@
 
 {
     "tailwind": {
-        "scope": "",
-        "version": "",
+        "scope": "wandezen.tool",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "tool/tailwind",
-        "nextVersion": {
-            "version": "patch",
-            "message": "tailwind initial release",
-            "username": "anguyen",
-            "email": "nathann.dev@gmail"
-        },
-        "config": {
-            "teambit.harmony/node": {},
-            "teambit.envs/envs": {
-                "env": "teambit.harmony/node"
-            }
-        }
+        "rootDir": "tool/tailwind"
     },
     "$schema-version": "15.0.0"
 }
