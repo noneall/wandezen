@@ -13,10 +13,10 @@
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui/envs/my-react-env",
+        "rootDir": "design/envs/my-react-env",
         "nextVersion": {
             "version": "patch",
-            "message": "chakra theme",
+            "message": "rename scope",
             "username": "anguyen",
             "email": "nathann.dev@gmail"
         },
@@ -33,7 +33,7 @@
         "rootDir": "tool/tailwind",
         "nextVersion": {
             "version": "patch",
-            "message": "chakra theme",
+            "message": "rename scope",
             "username": "anguyen",
             "email": "nathann.dev@gmail"
         }
@@ -42,10 +42,10 @@
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui/themes/base",
+        "rootDir": "design/themes/base",
         "nextVersion": {
             "version": "patch",
-            "message": "chakra theme",
+            "message": "rename scope",
             "username": "anguyen",
             "email": "nathann.dev@gmail"
         },
@@ -66,9 +66,9 @@
                     }
                 }
             },
-            "wandezen.ui/envs/my-react-env": {},
+            "wandezen.design/envs/my-react-env": {},
             "teambit.envs/envs": {
-                "env": "wandezen.ui/envs/my-react-env"
+                "env": "wandezen.design/envs/my-react-env"
             }
         }
     },

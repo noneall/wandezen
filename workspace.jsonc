@@ -1,13 +1,13 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://bit.dev/docs/workspace/workspace-configuration
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
    **/
   "teambit.workspace/workspace": {
-    "defaultScope": "wandezen.ui",
+    "defaultScope": "wandezen.design",
     "defaultDirectory": "{scope}/{name}"
   },
   /**
