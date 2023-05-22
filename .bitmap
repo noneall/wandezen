@@ -9,11 +9,68 @@
  */
 
 {
+    "envs/my-react-env": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/envs/my-react-env",
+        "nextVersion": {
+            "version": "patch",
+            "message": "chakra theme",
+            "username": "anguyen",
+            "email": "nathann.dev@gmail"
+        },
+        "config": {
+            "teambit.envs/envs": {
+                "env": "teambit.envs/env"
+            }
+        }
+    },
     "tailwind": {
         "scope": "wandezen.tool",
         "version": "0.0.3",
         "mainFile": "index.ts",
-        "rootDir": "tool/tailwind"
+        "rootDir": "tool/tailwind",
+        "nextVersion": {
+            "version": "patch",
+            "message": "chakra theme",
+            "username": "anguyen",
+            "email": "nathann.dev@gmail"
+        }
+    },
+    "themes/base": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/themes/base",
+        "nextVersion": {
+            "version": "patch",
+            "message": "chakra theme",
+            "username": "anguyen",
+            "email": "nathann.dev@gmail"
+        },
+        "config": {
+            "teambit.dependencies/dependency-resolver": {
+                "policy": {
+                    "peerDependencies": {
+                        "react": "18.2.0",
+                        "react-dom": "18.2.0",
+                        "@emotion/react": "11.11.0",
+                        "@emotion/styled": "11.11.0",
+                        "@chakra-ui/react": "2.6.1",
+                        "framer-motion": "10.12.12"
+                    },
+                    "devDependencies": {
+                        "@types/react-dom": "18.2.4",
+                        "@types/react": "18.2.6"
+                    }
+                }
+            },
+            "wandezen.ui/envs/my-react-env": {},
+            "teambit.envs/envs": {
+                "env": "wandezen.ui/envs/my-react-env"
+            }
+        }
     },
     "$schema-version": "15.0.0"
 }

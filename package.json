@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "gen:theme": "chakra-cli tokens design/chakra/theme.ts",
+    "gen:theme:watch": "chakra-cli tokens design/chakra/theme.ts --watch",
+    "start": "npx bit start && gen:theme:watch"
+  }
+}
