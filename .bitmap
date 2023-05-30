@@ -9,23 +9,11 @@
  */
 
 {
-    "envs/my-react-env": {
-        "scope": "wandezen.design",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "design/envs/my-react-env"
-    },
     "tailwind": {
         "scope": "wandezen.tool",
         "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "tool/tailwind"
-    },
-    "themes/base": {
-        "scope": "wandezen.design",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "design/themes/base"
     },
     "$schema-version": "15.0.0"
 }
