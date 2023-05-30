@@ -1,0 +1,24 @@
+---
+description: A template to custom chakra ui theme
+labels: ['chakra-ui', 'theme']
+---
+
+import { Button, Box, ChakraProvider, extendTheme } from '@chakra-ui/react';
+import DesignSystem from './chakra-theme-demo';
+
+An example of chakra UI theme extension.
+
+Recommend to use use `CustomThemeTypings` to define theme object.
+
+```ts
+import type { CustomThemeTypings } from '@chakra-ui/react';
+
+// This type will ensure that your theme is compatible with the Chakra UI theme provider
+export const myTheme: CustomThemeTypings = {
+  semanticTokens: {},
+};
+```
+
+## Demo
+
+<DesignSystem />

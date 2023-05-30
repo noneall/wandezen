@@ -9,6 +9,18 @@
  */
 
 {
+    "chakra-theme": {
+        "scope": "wandezen.design",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "design/chakra-theme",
+        "nextVersion": {
+            "version": "patch",
+            "message": "chakra-theme",
+            "username": "anguyen",
+            "email": "nathann.dev@gmail"
+        }
+    },
     "envs/react-18-env": {
         "scope": "wandezen.design",
         "version": "0.0.1",
