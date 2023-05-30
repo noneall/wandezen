@@ -9,6 +9,23 @@
  */
 
 {
+    "envs/react-18-env": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "design/envs/react-18-env",
+        "nextVersion": {
+            "version": "patch",
+            "message": "soft tag",
+            "username": "anguyen",
+            "email": "nathann.dev@gmail"
+        },
+        "config": {
+            "teambit.envs/envs": {
+                "env": "teambit.envs/env"
+            }
+        }
+    },
     "tailwind": {
         "scope": "wandezen.tool",
         "version": "0.0.4",
